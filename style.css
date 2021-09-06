@@ -104,6 +104,44 @@ figure{
     padding: 0px 1rem;
 }
 
+.logo{
+    background-color: #aaa;
+    width: 3.125rem;
+    align-self: center;
+}
+
+figure figcaption{
+    align-self: center;
+    margin: 0.5rem 0px;
+}
+
+.dog {
+    width: 60rem;
+    max-width: 100%;
+    align-self:center;
+}
+
+footer{
+    padding: 1rem 0px;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer a{
+    padding: 1rem 0px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+}
+
+footer a:hover{
+    background-color: #ddd;
+    color: black;
+}
 
 
 
