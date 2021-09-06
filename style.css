@@ -143,24 +143,40 @@ footer a:hover{
     color: black;
 }
 
+/* Marcação do Formulário */
 
-
-
-/*   >> Aula 12 <<
-.flex-container{
-    background-color: aqua;
-    display: flex; 
+.sectio-form{
+    background-color: white;
 }
 
-.flex-item{
-    background-color: chocolate;
-    margin: 5px;
-    padding: 10px;
-    font-size: 25px;
+fieldset{
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
 }
 
-*/
+input{
+    display: block;
+    width: 100%;
+    padding: 1rem 0px;
+    margin-bottom: 1rem;
+}
 
+select{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
 
+textarea{
+    display: block;
+    width: 100%;
+    padding: 1rem 0px;
+    margin-bottom: 1rem;
+}
 
-
+.preferencia{
+    display: inline-block;
+    width: 5%;
+}
