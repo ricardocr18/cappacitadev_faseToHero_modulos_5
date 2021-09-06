@@ -1,3 +1,70 @@
-.tabela1 {
-    padding: 30px;
+*{
+    margin: 0;
+    padding: 0;
 }
+
+body{
+    max-width: 100%;
+    margin: auto;
+}
+
+#header-top{
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+}
+
+#nav-top{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #333;
+    width: 100%
+}
+
+ul{
+    list-style: nome;
+}
+
+#nav-top a{
+    padding: 1rem 0px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+}
+
+#nav-top div{
+    display: block;
+    justify-content: center;
+    width: 100%;
+}
+
+#nav-top a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+
+
+
+/*   >> Aula 12 <<
+.flex-container{
+    background-color: aqua;
+    display: flex; 
+}
+
+.flex-item{
+    background-color: chocolate;
+    margin: 5px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+*/
+
+
+
+
